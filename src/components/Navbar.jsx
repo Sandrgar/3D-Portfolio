@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
+
 import { styles } from '../styles'
 import { navLinks } from '../constants'
 import { logo, menu, close } from '../assets'
@@ -11,13 +12,17 @@ const Navbar = () => {
   return (
     <nav className={`${styles.paddingX} w-full flex-itmes-center py-5 fixed top-0 z-20 bg-primary`}>
       <div className='w-full flex justify-between items-center max-w-7x1 mx-auto'>
-        <Link to="/" className='flex items-center gap2' onClick={() => {
+        <Link to="/" 
+        className='flex items-center gap2' 
+        onClick={() => {
           setActive("");
           window.scrollTo(0, 0)
         }}>
-          <img src={logo} alt="logo" className='w-9 h-9 object-contain' />
+          <img src={logo} alt="logo" 
+          className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor pointer flex'>
-            Alessandro &nbsp;<span className='sm:block hidden'>| Full-Stack Web Developer</span></p>
+            Alessandro &nbsp;
+            <span className='sm:block hidden'>| Full-Stack Web Developer</span></p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((link) => (
@@ -45,7 +50,7 @@ const Navbar = () => {
             <li key={link.id}
               className={`${active === link.title
                 ? "text-white"
-                : "text-secondary"}
+                : "text-secondary"}'
              font-poppins font-medium cursor-pointer text-[16px]`}
               onClick={() => {
                 setActive(link.title);
