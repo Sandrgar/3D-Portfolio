@@ -18,7 +18,6 @@ function App() {
           <Works/>
           <Feedbacks/>
           <div className="relative z-0"> 
-          {/* la classe è per mostrare le stelle */}
            <Contact/>
            <StarsCanvas/>
           </div>

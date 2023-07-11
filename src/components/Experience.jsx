@@ -8,7 +8,6 @@ import { textVariant } from "../utils/motion"
 
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
-    //  crea una propia struttura, una specie di card
     contentStyle={{
       background: '#1d1836',
       color: '#ffff'

@@ -53,7 +53,6 @@ const Works = () => {
   return (
     <>
       <motion.div
-        // p tags animated
         variants={textVariant()}>
         <p className={styles.sectionSubText}> My Work</p>
         <h2 className={styles.heroHeadText}>Projects.</h2>

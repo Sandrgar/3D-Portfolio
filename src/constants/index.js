@@ -51,10 +51,7 @@ const services = [
     title: "React Developer",
     icon: mobile,
   },
-  // {
-  //   title: "Backend Developer",
-  //   icon: backend,
-  // },
+ 
   {
     title: "Content Creator",
     icon: creator,
@@ -94,10 +91,6 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  // {
-  //   name: "MongoDB",
-  //   icon: mongodb,
-  // },
   {
     name: "Three JS",
     icon: threejs,
@@ -110,10 +103,6 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  // {
-  //   name: "docker",
-  //   icon: docker,
-  // },
 ];
 
 const experiences = [
@@ -211,35 +200,11 @@ const projects = [
         name: "css",
         color: "green-text-gradient",
       },
-      // {
-      //   name: "tailwind",
-      //   color: "pink-text-gradient",
-      // },
+     
     ],
     image: netflix,
     source_code_link: "https://github.com/",
   },
-  // {
-  //   name: "Job IT",
-  //   description:
-  //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "restapi",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "scss",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: jobit,
-  //   source_code_link: "https://github.com/",
-  // },
   {
     name: "PancakeSwap",
     description:
