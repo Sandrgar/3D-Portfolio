@@ -31,8 +31,10 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import netflix from './netflix.png'
 import pancakeswap from './pancakeswap.png'
+import eCommerce from './e-commerce.png'
 
 export {
+  eCommerce,
   pancakeswap,
   netflix,
   logo,

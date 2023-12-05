@@ -25,6 +25,7 @@ import {
   threejs,
   netflix,
   pancakeswap,
+  eCommerce,
 } from "../assets";
 
 export const navLinks = [
@@ -224,6 +225,27 @@ const projects = [
       },
     ],
     image: pancakeswap,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Videgames E-commerce",
+    description:
+      "I created an ecommerce of video games using React, Bootstraps and Node.jseact, you can scroll through the various games, add them to the cart and you also have the option to create an account, log in or log out! ",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Bootstraps",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient ",
+      },
+    ],
+    image: eCommerce,
     source_code_link: "https://github.com/",
   },
 ];
